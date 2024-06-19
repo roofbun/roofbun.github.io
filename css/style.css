@@ -1,0 +1,209 @@
+/*PortfolioV2*/
+/* General */
+body {
+    font-family: Kanit, REM, 'Atkinson Hyperlegible';
+}
+
+.bg-gradient {
+    background: linear-gradient(#512D94 20%, #8041D9 47%, #FFF17C 100%) !important;
+}
+
+.bg-gradient2 {
+    background: linear-gradient(90deg, #512D94 0%, #000000 81%);
+}
+
+.bg-purple {
+    background: #512D94;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: #8041d9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+.navbar-toggler-icon {
+    font-size: 1.5em;
+}
+
+.navbar-toggler {
+    padding: 1px 4px;
+}
+
+header .navbar a {
+    font-size: 1.3em !important;
+}
+
+/* Main */
+main {
+    padding: 40px 35px 80px;
+    max-width: 1200px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.main-img {
+    width: 80%;
+    height: auto;
+}
+
+.main-video {
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
+.splash {
+    height: 600px;
+    padding-top: 50px;
+    max-width: none !important;
+}
+
+.form-control::placeholder {
+    color: #473554;
+}
+
+.beaches {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+.btn-1 {
+    background-color: #8041D9;
+    border: 2px solid #ffffff !important;
+    color: #ffffff;
+}
+
+.btn-2 {
+    background-color: none !important;
+    border: 2px solid #ffffff !important;
+    color: #ffffff;
+}
+
+.contact-info {
+    text-decoration: none;
+    color: #473554 !important;
+}
+
+.p1-width {
+    width: 200px;
+    height: auto;
+}
+
+.p1st-width {
+    width: 210px;
+    height: auto;
+}
+
+.board-width {
+    width: 45%;
+    height: auto;
+}
+
+.profile-pic {
+    width: 80%;
+    height: auto;
+}
+
+form {
+    width: 100%;
+    display: inline-block;
+}
+
+.form {
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Footer */
+.BWlogo {
+    width: 80px;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .splash {
+        height: 750px;
+        padding-top: 70px;
+    }
+
+    .beaches {
+        height: 350px;
+        width: 350px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .splash {
+        height: 900px;
+        padding-top: 90px;
+    }
+
+    .bg-gradient {
+        background: linear-gradient(#512D94 20%, #8041D9 40%, #FFF17C 100%) !important;
+    }
+
+    .p1-width {
+        width: 165px;
+    }
+
+    .p1st-width {
+        width: 250px;
+    }
+
+    .board-width {
+        width: 70%;
+    }
+
+    .profile-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .beaches {
+        height: 300px;
+        width: 300px;
+        margin: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .splash {
+        height: 950px;
+        padding-top: 150px;
+    }
+
+    .beaches {
+        height: 250px;
+        width: 250px;
+        margin: 10px;
+    }
+
+    .p1-width {
+        width: 220px;
+    }
+
+    .p1st-width {
+        width: 234px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
