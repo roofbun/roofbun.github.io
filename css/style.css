@@ -45,7 +45,7 @@ header .navbar a {
 
 /* Main */
 main {
-    padding: 40px 35px 80px;
+    padding: 40px 35px 100px;
     max-width: 1200px;
 }
 
@@ -129,6 +129,7 @@ form {
 /* Footer */
 .BWlogo {
     width: 80px;
+    margin-top: -60px;
 }
 
 
